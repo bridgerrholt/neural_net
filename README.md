@@ -1,2 +1,2 @@
-# neural_net
-Simple fast neural net framework in C++
+# Neural Net
+Still being developed, not guaranteed to work at all, has no training algorithms.
