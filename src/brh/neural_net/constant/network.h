@@ -38,7 +38,7 @@ class Network
 
 
 		Network(std::size_t hiddenGroupCount,
-			      std::size_t inputNodeCount,
+		        std::size_t inputNodeCount,
 		        std::size_t outputNodeCount,
 		        std::size_t hiddenLayerCount,
 		        std::size_t nodesPerHiddenLayer) :

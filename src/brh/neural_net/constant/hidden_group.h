@@ -38,9 +38,9 @@ class HiddenGroup
 		                      std::size_t layerCount,
 		                      std::size_t nodesPerLayer) :
 			inputNodeCount_  {inputNodeCount},
-      outputNodeCount_ {outputNodeCount},
-      layerCount_      {layerCount},
-      nodesPerLayer_   {nodesPerLayer},
+			outputNodeCount_ {outputNodeCount},
+			layerCount_      {layerCount},
+			nodesPerLayer_   {nodesPerLayer},
 			buffer_          (getFloatCount()) { generateBuffer(); }
 
 		std::size_t getInputNodeCount()  const { return inputNodeCount_; }
